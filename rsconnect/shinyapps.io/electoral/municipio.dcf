@@ -1,0 +1,13 @@
+name: municipio
+title: municipio
+username:
+account: electoral
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2674605
+bundleId: 3555871
+url: https://electoral.shinyapps.io/municipio/
+when: 1598365737.91377
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: appV1.R
