@@ -329,7 +329,7 @@ server <- function(input, output) {
         colorMun <- setNames(as.character(graphMun2019$ideaColor), graphMun2019$Partido)
         graphico01 <- ggplot(graphMun2019, aes(x=reorder(Partido, -Porciento), y=Porciento, fill=Partido, label=Porciento)) +
             geom_col()+
-            geom_text(aes(y=10),size=8, color="black",fontface="bold")+
+            geom_text(aes(y=10),size=6, color="black",fontface="bold")+
             scale_fill_manual(values = colorMun)+
             theme(axis.text.x=element_text(face="bold", colour="black", size=12),
                   axis.text.y=element_blank(),
@@ -364,7 +364,7 @@ server <- function(input, output) {
         colorGen <- setNames(as.character(graphGen2019$ideaColor), graphGen2019$Partido)
         graphico02 <- ggplot(graphGen2019, aes(x=reorder(Partido, -Porciento), y=Porciento, fill=Partido, label=Porciento)) +
             geom_col()+
-            geom_text(aes(y=10),size=8, color="black",fontface="bold")+
+            geom_text(aes(y=10),size=6, color="black",fontface="bold")+
             scale_fill_manual(values = colorGen)+
             theme(axis.text.x=element_text(face="bold", colour="black", size=12),
                   axis.text.y=element_blank(),
